@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/filia/.dotnet/store/|arch|/|tfm|",
+      "/home/filia/.nuget/packages"
+    ]
+  }
+}
