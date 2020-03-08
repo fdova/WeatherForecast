@@ -17,9 +17,7 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
-    - name: Show workdir
-      run: pwd
-    - name: Show contents of workdir
-      run: ls
+    - name: Set workdir RestApi
+      run: cd RestApi
     - name: Build with dotnet
       run: dotnet build --configuration Development
