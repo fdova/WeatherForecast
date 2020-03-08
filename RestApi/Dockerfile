@@ -7,7 +7,7 @@ WORKDIR /app
 
 ### Copy csproj and restore 
 # Copy needs to define a source and a destination
-COPY *.csproj ./
+COPY RestApi/*.csproj ./
 RUN dotnet restore
 
 ### Copy everything else and build
