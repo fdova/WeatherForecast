@@ -32,3 +32,6 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+RestApi/[Bb]in
+RestApi/[Oo]bj
+RestApi/[Oo]ut
